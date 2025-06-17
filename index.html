@@ -7,26 +7,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Jonathan Luc's Portfolio </title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <ul>
-      <li><a href="index.html">Home Page</a></li>
-      <li><a href="projects.html">Projects</a></li>
-    </ul>
+    <div class="nav_wrapper">
+      <h1> Home Page </h1>
+      <div class="nav">
+          <a href="index.html">Home Page</a>
+          <a href="projects.html">Project Blogs</a>
+      </div>
+    </div>
 
-    <img src="assets/images/final_render.png" alt="Placeholder Image" class="profile_img">
-    <a href="files/06_2025_resume.pdf" target="_blank"> Resume </a>
-    <a href="https://github.com/spicywheatbread" target="_blank"> GitHub </a>
-    <a href="https://linkedin.com/in/jonathan-luc-287671213" target="_blank"> LinkedIn </a>
+    <div class="profile">
+      <div class="profile_image_section">
+        <img src="assets/images/final_render.png" alt="Placeholder Image" class="profile_image">
+        <div class="profile_social_section">
+          <a href="files/06_2025_resume.pdf" target="_blank"> <img src="assets/icons/resume.png"> </a>
+          <a href="https://github.com/spicywheatbread" target="_blank"> <img src="assets/icons/github-mark.png"> </a>
+          <a href="https://linkedin.com/in/jonathan-luc-287671213" target="_blank"> <img src="assets/icons/InBug-Black.png"> </a>
+        </div>
+      </div>
 
-    <h1> Jonathan Luc </h1>
-    <p> Hi, my name is Jonathan! I'm a 4th year Computer Science student at SJSU. <br>
-      I'm passionate about supporting the arts using technology! I love animation and video games, and anything in between. 
-    </p>
+      <div class="profile_text_section">
+        <h1> Jonathan Luc </h1>
+        <p> Hi, my name is Jonathan! I'm a 4th year Computer Science student at SJSU. <br>
+          I'm passionate about supporting the arts using technology! 
+          I love animation and video games, and anything in between. 
+        </p>
+      </div>
+    </div>
 
-    <a href="projects.html" class="button"> Check out some of my work! </a>
+    <div class="project_section">
+      <div class="project_card">
+        <img src="assets/images/final_render.png" alt="Placeholder Image" class="preview_img">
+        <h3> Roblox Cybersecurity Project (2024-2025) </h3>
+        <p> An educational kids game created for the CSU WITH initiative, educating K-6 audiences on internet safety! </p>
+      </div>
 
+      <div class="project_card">
+        <img src="assets/images/final_render.png" alt="Placeholder Image" class="preview_img">
+        <h3> Watercolor Shader (2025) </h3>
+        <a href="https://github.com/spicywheatbread/WatercolorShader" target="_blank"> GitHub & Gallery </a>
+        <br>
+        <span> A GLSL shader to replicate a watercolor style digitally, based on: </span>
+        <a href="files/artdirectedwatercolor.pdf" target="_blank">"Art-directed watercolor stylization of 3D animations in real-time".</a>
+      </div>
+
+      <div class="project_card">
+        <img src="assets/images/final_render.png" alt="Placeholder Image" class="preview_img">
+        <h3> Basic Raytracer (2024) </h3>
+        <a href="https://github.com/spicywheatbread/Raytracer" target="_blank"> Github & Gallery </a>
+        <br>
+        <p> This was my first introduction to raytracing, fit with the essentials like diffuse/specular lighting, shadows, and textures. </p>
+      </div>
+
+      <div class="project_card">
+        <img src="assets/images/final_render.png" alt="Placeholder Image" class="preview_img">
+        <h3> Draw (2023-2024) </h3>
+        <a href="https://store.steampowered.com/app/2473980/Draw/" target="_blank"> Steam Page </a>
+        <br>
+        <p> A platforming & puzzle solving game about Stickman and friends! Free to play if you're interested :)</p>
+      </div>
+    </div>
 </body>
