@@ -13,27 +13,17 @@ html {
 body {
   background-color: rgb(246,238,227);
   font-family: "Libre Baskerville", Helvetica, Verdana, Tahoma, sans-serif;
-  padding: 40px 0px;
 }
 
 p {
   line-height: 1.6;
 }
 
-.nav_wrapper {
-  align-items: center;
-  display: flex;
-  height: 40px;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  margin-left: 2.5%;
-}
-
-
 .nav {
+  height: 60px;
   background: black;
-  border-radius: 5px;
-  padding: 10px 20px;
+  display: flex;
+  align-items: center;
 }
 
 .nav a {
@@ -55,11 +45,11 @@ p {
   width: 95%;
   margin: 0px auto;
 }
+
 .profile {
   background-color: #253d63;
-  margin-top: 40px;
   min-height: 60vh;
-  padding: 20px 0px;
+  padding: 40px 0px;
 }
 
 .profile .container {
