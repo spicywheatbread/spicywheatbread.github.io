@@ -1,87 +1,98 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
+	<head>
 
-<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Roblox Cybersecurity Project Blog </title> 
+		<link rel="stylesheet" href="styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+ 		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+		<style> @import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap'); </style>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Roblox Cybersecurity Project Blog </title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
-    </style>
+	</head>
 
-</head>
+	<body>
 
-<body>
+		<div class="nav"> <a href="index.html">Home Page</a> </div>
 
-    <div class="nav">
-      <a href="index.html">Home Page</a>
-    </div>
+		<div class="container">
 
-    <div class="container">
+			<h1> Roblox Cybersecurity Game Blog </h1>
 
-      <h1><u> Roblox Cybersecurity Project Blog </u></h1>
+			<p> Hi! This is the blog for a Roblox game that I worked on at San Jose State University for the Cyber CSU WITH Initiative. This is a timeline of development that eventually devolves into my opinions on the project. </p>
 
-      <h2> Project Introduction </h2>
-      <p> This Roblox game is a prototype developed by a team of SJSU students for the <a href="https://www.withcyber.org/">WITH Cyber CSU Initiative.</a>
-      We were tasked with creating an educational game for K-6 audiences with the goals of: </p>
+			<p> This game never ended up being released :( which means that this is its proof of existence. </p>
 
-      <ul>
-        <li> Building safe internet habits </li>
-        <li> Introducing possible online dangers </li>
-        <li> Supporting a classroom learning environment </li> 
-      </ul>
+			<img src="assets/images/roblox/hackerwave_initial.png" alt="Evil Hackerman waving at you :)"/>
+			<p> <i> Here's the villain character we made. Aptly named, "Evil Hackerman". </i> </p>
 
-      <p> In order to test the effectiveness of using games as a supplement to classroom teaching. And so, we came up with 
-      <u> Cyberguardians: The Quest for Safety!</u><i> which is too long in my opinion, and I will refer to it by "Cyber Quest". </i> </p>
-      
-      <br>
+			<hr>
 
-      <img class="static" src="assets/images/roblox/hackerwave_initial.png" alt="Stranger waving at you"><img class="active" src="assets/images/roblox/hackerwave.gif" alt="Stranger waving at you">
-      <p> <i> A mysterious stranger welcomes you to the digital world... </i> </p>
+			<h2> Brainstorming </h2>
+			<p> We began with brainstorming many of the basic elements of our game. We were given a general set of educational goals, but little in the specific details. For example: 
+</p>
+			<ul>
+				<li> What environment was our game going to be played in? Classrooms during normal school hours? Afterschool programs? Randomly discovered online? </li>
+				<li> How were we going to measure success? Was there a plan to test their knowledge prior and after our game? </li>
+				<li> What curriculum were we educating for? Was there a standard set of internet skills for children to learn? </li>
+			</ul>
 
-      <hr>
+			<p> The communication with leadership in this project wasn’t the best. We knew that this was supposed to be a game to educate K-6 audiences on basic internet safety, and it was supposed to be used in schools? We made a lot of assumptions and went with our instincts. We had a lot of personal experiences we drew from since we grew up with the internet. </p> 
 
-      <p> Cyber Quest takes place inside of a digital world, where the players will encounter different internet concepts turned into game puzzles. 
-      As they play and explore the world, we slowly introduce more and more fundamental safety concepts and how players can react accordingly. </p>
+			<br>
 
-      <p> A central design pillar of our game was the intention of use within classroom environments. 
-      A teacher or leading figure would be able to create closed, controlled server instances of the game for their group of students - 
-      allowing them to play an active role alongside their students. Our puzzles and game structure were built with this environment in mind,
-      which we believed would help build positive habits such as asking a reputable figure for help.
+			<p> We pretty quickly settled on Roblox as our game platform: </p>
+			<ul> 
+				<li> It’s extremely popular among our target age range, as well as accessible - playable on mobile, tablet, and computer devices for free. </li>
+				<li>Roblox offered a nice dev environment. They offered a game editing/coding application in Roblox Studio with live collaboration. </li>
+				<li>  We liked the idea of building a social experience for a classroom to interact with together, allowing students to assist each other and have fun. Roblox games are commonly social experiences, so they have extensive support (ex - text chat and chat filters) & free multiplayer server hosting. Furthermore, a teacher or adult figure could join the experience and be engaging the children, rather than monitoring them from outside the game. </li>
+			</ul>
 
-      For example, in the later part of our game, we have our players navigating through a maze section where they learn about
-      different safe internet practices in order to escape. Periodically, "key events" occur in which all players are gathered together
-      in a room to discuss and answer a question together. </p>
+			<br>
 
-      <img src="assets/images/roblox/key_event.png" alt="Auditorium for players to gather in 'key events'">
-      <p> <i> When a key event occurs, all players are gathered in a single area, and are given a more difficult question. </i> </p>
-      <p> We give them extra time, and encourage them to discuss the correct answer with one another, guided by their teacher.
-      Through this format, we hoped to reinforce positive skills like cooperation and discussion. </p>
+			<p> Many popular Roblox games are very formulaic, which ends up being a benefit for us. We believed if we adapted familiar game mechanics and stories, we’d need less introduction and onboarding. “Which game genre’s story structure and game mechanics were best suited for our topic and for trying to educate?” </p>
 
-      <h2> Dialogue / Cutscene System </h2>
-      <p> The largest part of the game I created was a dialogue system that doubled as our cutscene system. It was a fun way to
-      give the players a way to feel they were interacting with the world and its characters, as well as assisting in our expositions. 
-      This system included: </p>
+			<p> Honestly, my gut instinct was a horror game - You learn fast when you’re a small child scared for your life. A horror game could easily fit our cybersecurity theme by framing digital issues like hackers, child predators, and viruses as monsters. Horror games commonly feature puzzle solving in order to escape and win. In the short course of a horror game, you could reinforce many habits, which we could connect to beneficial real world habits. </p>
 
-      <ul>
-        <li> Template for rapid scene creation </li>
-        <li> Workspace tools for scene editing (ex: camera positioning using workspace camera) </li>
-        <li> Support for external function calls mid-dialogue </li>
-        <li> Cutscene basics such as camera movement and Animal Crossing-style charcter voices. </li>
-      </ul>
+			<p> In the end, we drew from the concepts and elements of a horror game, but it became something more like a linear adventure game. We retained parts like minigame-based puzzle solving and recognizable enemies since we thought these would fit our goals well. We began storyboarding the plot and experience of our entire game. </p>
 
-      <p> Here's an example of it in action: </p>
+			<p> <i> Here’s one of the storyboards of our plot I drew. I really liked drawing the little computer characters. </i> </p>
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/GiarrOSiRLo?si=ZzoOFUbpniorSf8S" 
-      title="Dialogue Demonstration Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <p> <i> Your dad talks to you, walking you through the game. </i> <p>
+			<img src="assets/images/roblox/storyboard.png" alt="One of the storyboards that I drew.">
 
+			<hr>
 
-    </div>
-</body>
+			<h2> Semester 1 Development </h2>
+
+			<p> So, with ideas in hand, it was time to actually start making things. Of course, because we had chosen such an easy platform to work with and we were all great students, we figured we could finish three levels before the end of the year, maybe even the semester. That was very greedy. This was maybe October, and our semester ended in December. </p>
+
+			<p> We began by splitting tasks to try prototyping different parts of our game to familiarize ourselves with programming with the Roblox systems. We first organized tasks around building our lobby, which would be the area that players first load into. My task here was pretty simple in just animating the movement of a bus that would deliver players to load into the actual first level of the game. </p>
+
+			<p> Then, it was December, and finals season hit, and then it was time to present our semester’s worth (month and a half’s worth) of progress. Frankly, all we accomplished by the end of the first semester was the lobby of our game, which is far more realistic and less grand in scope than three entire levels. </p>
+
+			<br>
+
+			<h2> Semester 2 Development </h2>
+
+			<p> The second semester is where we sat down and figured that reducing our scope to just one level by Summer was a bit more realistic. Through careful analysis and reasoning, we deduced that maybe adding a dedicated art student to our team would help production because we had 9 (Nine) CS students forming a team. The team composition and organizational structure was worked on. </p>
+
+			<p> My work this semester consisted around two connected systems for our game. Originally I planned to only create a dialogue system for our game so that the players could interact with characters. I must credit Asadrith on Youtube because I used his Dialogue Kit he provided for free and built off of it. As I was working to mold the foundation he created for our game’s purposes, I started adding my own camera movements and extensions, and I came out with a dialogue/cutscene system. I’d tried to work off of some of the community plugins for cutscene building available, but I generally found it easier to build cutscenes if they were tightly coupled with the dialogue system. </p>
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/GiarrOSiRLo?si=NgBZmzwfXM2lNbBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+			<p> Once I had finished, the weeks had gone by and we were moving toward the final presentation date. With what time we had left, I mostly focused my time on collaborating with the students I shared a game development philosophy with - working on both the small details and larger gameplay mechanics for how we were to teach our concepts. </p>
+
+			<p> Finally, it was time to present our year’s work to the expectant CSU professors. We created a presentation and showed a little demo, and then none of us ever touched the project again. It was entombed in the confines of our Roblox accounts, promised to “continue development under new students next semester”. </p>
+
+			<h2> Project Reflections </h2>
+			<p> The feelings that I took away from this project were that while I loved making games, this project reminded me of the importance of soft skills in the workplace. </p>
+
+			<p> I should be more confident and vocal in my teams - Not dominating and directing, but inviting discussion to occur with my opinions. There were many design decisions that I really didn’t agree with, but I didn’t speak out against our professor and other team members. The educational aspects of our game ended up being little more than rote memorization, lecture, and direct quizzing. I wanted this game to be a demonstration of how we could use game elements to create a style of learning much more exciting and engaging than that. Our game had a lot of potential to realize this, but we didn’t put enough time and thought to push it to that point. </p>
+
+			<p> At the time of writing, I’ve been a part of a much better development team and I’m enjoying my time. I look back at this project, and it taught me a lot about my own values and work philosophy. I learned a lot of warning signs to change something. I don’t regret the time I spent on this game - there are lessons you can only learn by trying to build something and failing. </p>
+
+		</div>
+
+	</body>
