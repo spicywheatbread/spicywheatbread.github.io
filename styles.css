@@ -38,6 +38,7 @@ hr {
 }
 
 ul {
+  line-height: 1.6;
   list-style-position: inside;
 }
 
@@ -70,7 +71,12 @@ li {
 }
 
 .container {
-  width: 95%;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.blog-container {
+  width: 60%;
   margin: 0px auto;
 }
 
